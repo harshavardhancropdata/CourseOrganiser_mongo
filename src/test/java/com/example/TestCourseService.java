@@ -21,7 +21,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.example.controller.CourseController;
 import com.example.entity.Course;
 import com.example.repository.CourseRepository;
-import com.example.serviceimpl.CourseIMPL;
+import com.example.serviceimpl.CourseImpl;
 
 @TestMethodOrder(OrderAnnotation.class)
 @SpringBootTest(classes = { TestCourseService.class })
@@ -31,7 +31,7 @@ public class TestCourseService {
 	public CourseRepository courseRepository;
 
 	@InjectMocks
-	public CourseIMPL CourseIMPL;
+	public CourseImpl CourseIMPL;
 
 	@InjectMocks
 	CourseController controller;

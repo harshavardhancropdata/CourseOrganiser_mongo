@@ -13,7 +13,7 @@ import com.example.mapper.LanguageMapper;
 import com.example.repository.LanguageRepository;
 
 @Service
-public class LanguageServiceIMPL implements ILanguageService {
+public class LanguageServiceImpl implements ILanguageService {
 
 	@Autowired
 	private LanguageRepository languageRepository;

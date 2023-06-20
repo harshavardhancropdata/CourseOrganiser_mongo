@@ -13,7 +13,7 @@ import java.util.Optional;
 import com.example.controller.LanguageController;
 import com.example.entity.Language;
 import com.example.repository.LanguageRepository;
-import com.example.serviceimpl.LanguageServiceIMPL;
+import com.example.serviceimpl.LanguageServiceImpl;
 import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -32,7 +32,7 @@ public class TestLanguageService {
 	public LanguageRepository languageRepository;
 
 	@InjectMocks
-	public LanguageServiceIMPL languageServiceIMPL;
+	public LanguageServiceImpl languageServiceIMPL;
 
 	@InjectMocks
 	LanguageController languageController;

@@ -13,7 +13,7 @@ import com.example.mapper.CourseMapper;
 import com.example.repository.CourseRepository;
 
 @Service
-public class CourseIMPL implements ICourseService {
+public class CourseImpl implements ICourseService {
 
 	@Autowired
 	private CourseRepository courseRepository;
